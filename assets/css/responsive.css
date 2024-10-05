@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1300px) {
+  .container {
+    padding: 16px 35px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0px 25px;
+  }
+  .menu {
+    display: none;
+  }
+
+  /* #menu-icon {
+    display: block;
+  } */
+
+  #menu-icon {
+    display: block;
+  }
+
+  #menu-close-btn {
+    display: none;
+  }
+
+  .menu ul {
+    position: absolute;
+    top: 49px;
+    z-index: 6;
+    width: 100vw;
+    background: #ddd;
+    left: 0;
+    text-align: center;
+    padding: 45px 10px;
+    transition: all 0.5s;
+  }
+  .menu ul li {
+    display: block;
+  }
+
+  .download-btn {
+    margin-top: 15px;
+  }
+
+  input[type="submit"] {
+    margin-left: 0px;
+  }
+}
